@@ -1,0 +1,45 @@
+{
+    "name": "Captions",
+    "logo": {
+      "light": "/logo/light.png",
+      "dark": "/logo/dark.png"
+    },
+    "favicon": "/favicon.png",
+    "colors": {
+      "primary": "#9c51ef",
+      "light": "#C38FFD",
+      "dark": "#9c51ef"
+    },
+    "topbarCtaButton": {
+      "name": "Go to Captions",
+      "url": "https://www.captions.ai/"
+    },
+    "anchors": [
+      {
+        "name": "Feature Requests",
+        "icon": "message",
+        "url": "https://captions.canny.io/feature-requests"
+      },
+      {
+        "name": "Blog",
+        "icon": "newspaper",
+        "url": "https://www.captions.ai/blog"
+      },
+      {
+        "name": "Community",
+        "icon": "people",
+        "url": "https://www.captions.ai/community"
+      }
+    ],
+    "navigation": [
+      {
+        "group": "Getting Started",
+        "pages": ["introduction"]
+      }
+    ],
+    "footerSocials":
+      {
+          "twitter": "https://twitter.com/getcaptionsapp?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+          "linkedin": "https://www.linkedin.com/company/captionsapp/"
+      }
+  }
