@@ -1,4 +1,5 @@
 {
+    "versions": ["English", "German", "Spanish", "Portuguese", "Korean"],
     "name": "Captions",
     "logo": {
       "light": "/logo/light.png",
@@ -11,24 +12,14 @@
       "dark": "#9c51ef"
     },
     "topbarCtaButton": {
-      "name": "Go to Captions",
+      "name": "Sign Up / Sign In",
       "url": "https://www.captions.ai/"
     },
     "anchors": [
       {
-        "name": "Feature Requests",
+        "name": "Contact Support",
         "icon": "message",
         "url": "https://captions.canny.io/feature-requests"
-      },
-      {
-        "name": "Blog",
-        "icon": "newspaper",
-        "url": "https://www.captions.ai/blog"
-      },
-      {
-        "name": "Community",
-        "icon": "people",
-        "url": "https://www.captions.ai/community"
       }
     ],
     "navigation": [
@@ -41,5 +32,30 @@
       {
           "twitter": "https://twitter.com/getcaptionsapp?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
           "linkedin": "https://www.linkedin.com/company/captionsapp/"
-      }
+      },
+      "tabs": [
+        {
+            "name": "Feature Requests",
+            "url": "api-references"
+        },
+        {
+            "name": "Changelog",
+            "url": "content"
+        },
+        {
+            "name": "Community",
+            "url": "https://your-website.com/blog"
+        },
+        {
+            "name": "Blog",
+            "url": "https://your-website.com/blog"
+        },
+        {
+          "name": "Status",
+          "url": "https://your-website.com/blog"
+        }
+        
+    ]
+    
+      
   }
