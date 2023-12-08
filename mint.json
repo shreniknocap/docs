@@ -1,5 +1,5 @@
 {
-    "versions": ["English", "German", "Spanish", "Portuguese"],
+    "versions": ["English", "German", "Spanish", "Portuguese", "Korean"],
     "name": "Captions",
     "logo": {
       "light": "/logo/light.png",
