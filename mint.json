@@ -11,6 +11,12 @@
       "light": "#C38FFD",
       "dark": "#9c51ef"
     },
+    "topbarLinks": [
+      {
+        "name": "Captions website",
+        "url": "https://www.captions.ai/"
+      }
+    ],
     "topbarCtaButton": {
       "name": "Sign Up / Sign In",
       "url": "https://www.captions.ai/"
@@ -59,6 +65,60 @@
             ]
 
           }
+        ]
+      },
+      {
+        "group": "Captions",
+        "pages":[
+          {
+            "group": "Manage Captions",
+            "pages":[
+              
+                "documentation/captions/add-captions",
+                "documentation/captions/edit-captions",
+                "documentation/captions/word-effects",
+                "documentation/captions/templates",
+                "documentation/captions/style",
+                "documentation/captions/keyframes"
+              
+            ]
+          }
+        ]
+        
+      },
+      {
+        "group": "Translation",
+        "pages":[
+          "documentation/translation/ai-dubbing",
+          "documentation/translation/ai-lipdub"
+        ]
+      },
+      {
+        "group": "Timeline Editing",
+        "pages":[
+          "documentation/timeline-editing/ai-trim",
+          "documentation/timeline-editing/trim-and-split",
+          "documentation/timeline-editing/translations"
+        ]
+      },
+      {
+        "group": "Visual Editing",
+        "pages":[
+          "documentation/visual-editing/text",
+          "documentation/visual-editing/zoom-ai",
+          "documentation/visual-editing/title-ai",
+          "documentation/visual-editing/images-ai",
+          "documentation/visual-editing/eye-contact-ai"
+        ]
+      },
+      {
+        "group": "Audio Editing",
+        "pages":[
+          "documentation/audio-editing/music-ai",
+          "documentation/audio-editing/sounds",
+          "documentation/audio-editing/denoise-ai",
+          "documentation/audio-editing/voiceover-ai",
+          "documentation/audio-editing/cencor-ai"
         ]
       }
     ],
