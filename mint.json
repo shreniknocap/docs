@@ -120,6 +120,38 @@
           "documentation/audio-editing/voiceover-ai",
           "documentation/audio-editing/cencor-ai"
         ]
+      },
+      {
+        "group": "Scale & Export",
+        "pages": ["documentation/scale-and-export"]
+      },
+      {
+        "group": "Account",
+        "pages": [
+          "documentation/account/subscription-and-billing",
+          "documentation/account/teams",
+          "documentation/account/cloud-syncing"
+        ]
+      },
+      {
+        "group": "Platforms",
+        "pages": [
+          "documentation/platforms/desktop",
+          "documentation/platforms/ios",
+          "documentation/platform/android"
+        ]
+      },
+      {
+        "group": "APIs",
+        "pages": [
+          "documentation/apis/apis"
+        ]
+      },
+      {
+        "group": "Support",
+        "pages": [
+          "documentation/support/support"
+        ]
       }
     ],
     "footerSocials":
