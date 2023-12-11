@@ -44,9 +44,13 @@
     ],
     "navigation": [
       {
+        "group": "Help Center & FAQ",
+        "pages": ["introduction"]
+      },
+      {
         "group": "Start Guide",
         "pages": [
-          "introduction",
+          
           {
             "group": "Create a Project",
             "pages": [
@@ -66,7 +70,9 @@
       {
           "twitter": "https://twitter.com/getcaptionsapp?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
           "linkedin": "https://www.linkedin.com/company/captionsapp/"
+      },
+      "integrations": {
+        "intercom": "bzzhyhyn"
       }
-    
       
   }
