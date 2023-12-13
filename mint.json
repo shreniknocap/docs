@@ -1,170 +1,174 @@
 {
-    "versions": ["English", "German", "Spanish", "Portuguese", "Korean"],
-    "name": "Captions",
-    "logo": {
-      "light": "/logo/light.png",
-      "dark": "/logo/dark.png"
-    },
-    "favicon": "/favicon.png",
-    "colors": {
-      "primary": "#9c51ef",
-      "light": "#C38FFD",
-      "dark": "#9c51ef"
-    },
-    "topbarLinks": [
-      {
-        "name": "Captions website",
-        "url": "https://www.captions.ai/"
-      }
-    ],
-    "topbarCtaButton": {
-      "name": "Sign Up / Sign In",
+  "versions": ["English", "German", "Spanish", "Portuguese", "Korean"],
+  "name": "Captions",
+  "logo": {
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
+  },
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#9c51ef",
+    "light": "#C38FFD",
+    "dark": "#9c51ef"
+  },
+  "topbarLinks": [
+    {
+      "name": "Captions website",
       "url": "https://www.captions.ai/"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Sign Up / Sign In",
+    "url": "https://www.captions.ai/"
+  },
+  "topAnchor": {
+    "name": "Home",
+    "icon": "house",
+    "iconType": "light"
+  },
+  "anchors": [
+    {
+      "name": "Feature Requests",
+      "icon": "message",
+      "url": "https://captions.canny.io/feature-requests"
     },
-    "anchors": [
-      {
-        "name": "Feature Requests",
-        "icon": "message",
-        "url": "https://captions.canny.io/feature-requests"
-      },
-      {
-        "name": "Blog",
-        "icon": "newspaper",
-        "url": "https://www.captions.ai/blog"
-      },
-      {
-        "name": "Community",
-        "icon": "people",
-        "url": "https://www.captions.ai/community"
-      },
-      {
-        "name": "Status",
-        "icon": "list-check",
-        "url": "https://www.captions.ai/community"
-      },
-      {
-        "name": "Contact Support",
-        "icon": "comments",
-        "url": "https://captions.canny.io/feature-requests"
-      }
-    ],
-    "navigation": [
-      {
-        "group": "Help Center & FAQ",
-        "pages": ["introduction"]
-      },
-      {
-        "group": "Start Guide",
-        "pages": [
+    {
+      "name": "Blog",
+      "icon": "newspaper",
+      "url": "https://www.captions.ai/blog"
+    },
+    {
+      "name": "Community",
+      "icon": "people",
+      "url": "https://www.captions.ai/community"
+    },
+    {
+      "name": "Status",
+      "icon": "list-check",
+      "url": "https://www.captions.ai/community"
+    },
+    {
+      "name": "Contact Support",
+      "icon": "comments",
+      "url": "https://captions.canny.io/feature-requests"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Documentation",
+      "pages": [
+        {
+          "group": "Help Center & FAQ",
+          "pages": ["introduction"]
+        },
+        {
+          "group": "Start Guide",
+          "pages": [
+            
+            {
+              "group": "Create a Project",
+              "pages": [
+                "documentation/start-guide/create-a-project/import",
+                "documentation/start-guide/create-a-project/camera",
+                "documentation/start-guide/create-a-project/script",
+                "documentation/start-guide/create-a-project/teleprompter",
+                "documentation/start-guide/create-a-project/ai-shorts",
+                "documentation/start-guide/create-a-project/ai-dubbing"
+              ]
+    
+            }
+          ]
+        },
+        {
+          "group": "Captions",
+          "pages":[
+                
+                  "documentation/captions/add-captions",
+                  "documentation/captions/edit-captions",
+                  "documentation/captions/word-effects",
+                  "documentation/captions/templates",
+                  "documentation/captions/style",
+                  "documentation/captions/keyframes"
+          ]
           
-          {
-            "group": "Create a Project",
-            "pages": [
-              "documentation/start-guide/create-a-project/import",
-              "documentation/start-guide/create-a-project/camera",
-              "documentation/start-guide/create-a-project/script",
-              "documentation/start-guide/create-a-project/teleprompter",
-              "documentation/start-guide/create-a-project/ai-shorts",
-              "documentation/start-guide/create-a-project/ai-dubbing"
-            ]
-
-          }
-        ]
-      },
-      {
-        "group": "Captions",
-        "pages":[
-          {
-            "group": "Manage Captions",
-            "pages":[
-              
-                "documentation/captions/add-captions",
-                "documentation/captions/edit-captions",
-                "documentation/captions/word-effects",
-                "documentation/captions/templates",
-                "documentation/captions/style",
-                "documentation/captions/keyframes"
-              
-            ]
-          }
-        ]
-        
-      },
-      {
-        "group": "Translation",
-        "pages":[
-          "documentation/translation/ai-dubbing",
-          "documentation/translation/ai-lipdub"
-        ]
-      },
-      {
-        "group": "Timeline Editing",
-        "pages":[
-          "documentation/timeline-editing/ai-trim",
-          "documentation/timeline-editing/trim-and-split",
-          "documentation/timeline-editing/translations"
-        ]
-      },
-      {
-        "group": "Visual Editing",
-        "pages":[
-          "documentation/visual-editing/text",
-          "documentation/visual-editing/zoom-ai",
-          "documentation/visual-editing/title-ai",
-          "documentation/visual-editing/images-ai",
-          "documentation/visual-editing/eye-contact-ai"
-        ]
-      },
-      {
-        "group": "Audio Editing",
-        "pages":[
-          "documentation/audio-editing/music-ai",
-          "documentation/audio-editing/sounds",
-          "documentation/audio-editing/denoise-ai",
-          "documentation/audio-editing/voiceover-ai",
-          "documentation/audio-editing/cencor-ai"
-        ]
-      },
-      {
-        "group": "Scale & Export",
-        "pages": ["documentation/scale-and-export"]
-      },
-      {
-        "group": "Account",
-        "pages": [
-          "documentation/account/subscription-and-billing",
-          "documentation/account/teams",
-          "documentation/account/cloud-syncing"
-        ]
-      },
-      {
-        "group": "Platforms",
-        "pages": [
-          "documentation/platforms/desktop",
-          "documentation/platforms/ios",
-          "documentation/platform/android"
-        ]
-      },
-      {
-        "group": "APIs",
-        "pages": [
-          "documentation/apis/apis"
-        ]
-      },
-      {
-        "group": "Support",
-        "pages": [
-          "documentation/support/support"
-        ]
-      }
-    ],
-    "footerSocials":
-      {
-          "twitter": "https://twitter.com/getcaptionsapp?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
-          "linkedin": "https://www.linkedin.com/company/captionsapp/"
-      },
-      "integrations": {
-        "intercom": "bzzhyhyn"
-      }
-      
-  }
+        },
+        {
+          "group": "Translation",
+          "pages":[
+            "documentation/translation/ai-dubbing",
+            "documentation/translation/ai-lipdub"
+          ]
+        },
+        {
+          "group": "Timeline Editing",
+          "pages":[
+            "documentation/timeline-editing/ai-trim",
+            "documentation/timeline-editing/trim-and-split",
+            "documentation/timeline-editing/translations"
+          ]
+        },
+        {
+          "group": "Visual Editing",
+          "pages":[
+            "documentation/visual-editing/text",
+            "documentation/visual-editing/zoom-ai",
+            "documentation/visual-editing/title-ai",
+            "documentation/visual-editing/images-ai",
+            "documentation/visual-editing/eye-contact-ai"
+          ]
+        },
+        {
+          "group": "Audio Editing",
+          "pages":[
+            "documentation/audio-editing/music-ai",
+            "documentation/audio-editing/sounds",
+            "documentation/audio-editing/denoise-ai",
+            "documentation/audio-editing/voiceover-ai",
+            "documentation/audio-editing/cencor-ai"
+          ]
+        },
+        {
+          "group": "Scale & Export",
+          "pages": ["documentation/scale-and-export"]
+        },
+        {
+          "group": "Account",
+          "pages": [
+            "documentation/account/subscription-and-billing",
+            "documentation/account/teams",
+            "documentation/account/cloud-syncing"
+          ]
+        },
+        {
+          "group": "Platforms",
+          "pages": [
+            "documentation/platforms/desktop",
+            "documentation/platforms/ios",
+            "documentation/platform/android"
+          ]
+        },
+        {
+          "group": "APIs",
+          "pages": [
+            "documentation/apis/apis"
+          ]
+        },
+        {
+          "group": "Support",
+          "pages": [
+            "documentation/support/support"
+          ]
+        }
+      ]
+    }
+  ],
+  "footerSocials":
+    {
+        "twitter": "https://twitter.com/getcaptionsapp?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+        "linkedin": "https://www.linkedin.com/company/captionsapp/"
+    },
+    "integrations": {
+      "intercom": "bzzhyhyn"
+    }
+    
+}
