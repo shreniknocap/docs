@@ -33,18 +33,13 @@
       "url": "https://captions.canny.io/feature-requests"
     },
     {
-      "name": "Blog",
+      "name": "Changelog",
       "icon": "newspaper",
-      "url": "https://www.captions.ai/blog"
+      "url": "changelog"
     },
     {
       "name": "Community",
       "icon": "people",
-      "url": "https://www.captions.ai/community"
-    },
-    {
-      "name": "Status",
-      "icon": "list-check",
       "url": "https://www.captions.ai/community"
     },
     {
@@ -57,10 +52,6 @@
     {
       "group": "Documentation",
       "pages": [
-        {
-          "group": "Help Center & FAQ",
-          "pages": ["introduction"]
-        },
         {
           "group": "Start Guide",
           "pages": [
@@ -78,6 +69,10 @@
     
             }
           ]
+        },
+        {
+          "group": "Updates by platform",
+          "pages": ["changelog/ios", "changelog/mac", "changelog/desktop", "changelog/android"]
         },
         {
           "group": "Captions",
@@ -144,7 +139,7 @@
           "pages": [
             "documentation/platforms/desktop",
             "documentation/platforms/ios",
-            "documentation/platform/android"
+            "documentation/platforms/android"
           ]
         },
         {
