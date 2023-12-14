@@ -1,5 +1,4 @@
 {
-  "versions": ["English", "German", "Spanish", "Portuguese", "Korean"],
   "name": "Captions",
   "logo": {
     "light": "/logo/light.png",
@@ -40,7 +39,7 @@
     {
       "name": "Community",
       "icon": "people",
-      "url": "https://www.captions.ai/community"
+      "url": "http://discord.gg/captions"
     },
     {
       "name": "Contact Support",
@@ -53,26 +52,20 @@
       "group": "Documentation",
       "pages": [
         {
-          "group": "Start Guide",
+          "group": "Create a Project",
           "pages": [
-            
-            {
-              "group": "Create a Project",
-              "pages": [
-                "documentation/start-guide/create-a-project/import",
-                "documentation/start-guide/create-a-project/camera",
-                "documentation/start-guide/create-a-project/script",
-                "documentation/start-guide/create-a-project/teleprompter",
-                "documentation/start-guide/create-a-project/ai-shorts",
-                "documentation/start-guide/create-a-project/ai-dubbing"
-              ]
-    
-            }
+            "documentation/start-guide/create-a-project/import",
+            "documentation/start-guide/create-a-project/camera",
+            "documentation/start-guide/create-a-project/script",
+            "documentation/start-guide/create-a-project/teleprompter",
+            "documentation/start-guide/create-a-project/ai-shorts",
+            "documentation/start-guide/create-a-project/ai-dubbing"
           ]
+
         },
         {
           "group": "Updates by platform",
-          "pages": ["changelog/ios", "changelog/mac", "changelog/desktop", "changelog/android"]
+          "pages": ["changelog/ios", "changelog/desktop", "changelog/android"]
         },
         {
           "group": "Captions",
@@ -160,10 +153,15 @@
   "footerSocials":
     {
         "twitter": "https://twitter.com/getcaptionsapp?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+        "youtube": "http://youtube.com/@captionsai",
+        "instagram": "http://instagram.com/getcaptionsapp",
         "linkedin": "https://www.linkedin.com/company/captionsapp/"
     },
     "integrations": {
       "intercom": "bzzhyhyn"
+    },
+    "feedback": {
+      "thumbsRating": true
     }
     
 }
