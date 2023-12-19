@@ -48,51 +48,60 @@
     }
   ],
   "navigation": [
+    
     {
       "group": "Documentation",
       "pages": [
         {
-          "group": "Create a Project",
+          "group": "Start Guide",
           "pages": [
-            "documentation/start-guide/create-a-project/import",
-            "documentation/start-guide/create-a-project/camera",
-            "documentation/start-guide/create-a-project/script",
-            "documentation/start-guide/create-a-project/teleprompter",
-            "documentation/start-guide/create-a-project/ai-shorts",
-            "documentation/start-guide/create-a-project/ai-dubbing"
+            {
+              "group": "Get the app",
+              "pages":[
+                "documentation/start-guide/get-the-app/ios",
+                "documentation/start-guide/get-the-app/desktop",
+                "documentation/start-guide/get-the-app/android"
+              ]
+            },
+            {
+              "group": "Create a project",
+              "pages": [
+                "documentation/start-guide/create-a-project/import",
+                "documentation/start-guide/create-a-project/camera",
+                "documentation/start-guide/create-a-project/script",
+                "documentation/start-guide/create-a-project/teleprompter",
+                "documentation/start-guide/create-a-project/ai-shorts"
+              ]
+    
+            },
+            "documentation/start-guide/subscriptions"
           ]
-
         },
         {
-          "group": "Updates by platform",
-          "pages": ["changelog/ios", "changelog/desktop", "changelog/android"]
-        },
-        {
-          "group": "Captions",
+          "group": "Captions & Translations",
           "pages":[
-                
-                  "documentation/captions/add-captions",
-                  "documentation/captions/edit-captions",
-                  "documentation/captions/word-effects",
-                  "documentation/captions/templates",
-                  "documentation/captions/style",
-                  "documentation/captions/keyframes"
+            {
+              "group": "Captions",
+              "pages":[
+                "documentation/captions-and-translations/captions/add-captions",
+                "documentation/captions-and-translations/captions/edit-captions",
+                "documentation/captions-and-translations/captions/word-effects",
+                "documentation/captions-and-translations/captions/templates-and-styles",
+                "documentation/captions-and-translations/captions/keyframes"
+              ]
+            },
+            "documentation/captions-and-translations/dubbing",
+            "documentation/captions-and-translations/lipdub",
+            "documentation/captions-and-translations/speech-correction"
           ]
           
-        },
-        {
-          "group": "Translation",
-          "pages":[
-            "documentation/translation/ai-dubbing",
-            "documentation/translation/ai-lipdub"
-          ]
         },
         {
           "group": "Timeline Editing",
           "pages":[
             "documentation/timeline-editing/ai-trim",
-            "documentation/timeline-editing/trim-and-split",
-            "documentation/timeline-editing/translations"
+            "documentation/timeline-editing/manage-clips",
+            "documentation/timeline-editing/transitions"
           ]
         },
         {
@@ -101,7 +110,7 @@
             "documentation/visual-editing/text",
             "documentation/visual-editing/zoom-ai",
             "documentation/visual-editing/title-ai",
-            "documentation/visual-editing/images-ai",
+            "documentation/visual-editing/media",
             "documentation/visual-editing/eye-contact-ai"
           ]
         },
@@ -111,43 +120,30 @@
             "documentation/audio-editing/music-ai",
             "documentation/audio-editing/sounds",
             "documentation/audio-editing/denoise-ai",
-            "documentation/audio-editing/voiceover-ai",
-            "documentation/audio-editing/cencor-ai"
+            "documentation/audio-editing/cencor-ai",
+            "documentation/audio-editing/voiceover-ai"
           ]
         },
         {
-          "group": "Scale & Export",
-          "pages": ["documentation/scale-and-export"]
-        },
-        {
-          "group": "Account",
+          "group": "Project Settings",
           "pages": [
-            "documentation/account/subscription-and-billing",
-            "documentation/account/teams",
-            "documentation/account/cloud-syncing"
-          ]
-        },
-        {
-          "group": "Platforms",
-          "pages": [
-            "documentation/platforms/desktop",
-            "documentation/platforms/ios",
-            "documentation/platforms/android"
-          ]
-        },
-        {
-          "group": "APIs",
-          "pages": [
-            "documentation/apis/apis"
-          ]
-        },
-        {
-          "group": "Support",
-          "pages": [
-            "documentation/support/support"
+            "documnetation/project-settings/scale-and-format",
+            "documnetation/project-settings/export",
+            "documnetation/project-settings/managing-projects",
+            "documnetation/project-settings/captions-cloud"
           ]
         }
       ]
+    },
+    {
+      "group": "APIs",
+      "pages": [
+        "documentation/apis/apis"
+      ]
+    },
+    {
+      "group": "Updates by platform",
+      "pages": ["changelog/ios", "changelog/desktop", "changelog/android"]
     }
   ],
   "footerSocials":
