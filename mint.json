@@ -127,10 +127,10 @@
         {
           "group": "Project Settings",
           "pages": [
-            "documnetation/project-settings/scale-and-format",
-            "documnetation/project-settings/export",
-            "documnetation/project-settings/managing-projects",
-            "documnetation/project-settings/captions-cloud"
+            "documentation/project-settings/scale-and-format",
+            "documentation/project-settings/export",
+            "documentation/project-settings/managing-projects",
+            "documentation/project-settings/captions-cloud"
           ]
         }
       ]
