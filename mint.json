@@ -49,9 +49,6 @@
   ],
   "navigation": [
     
-    {
-      "group": "Documentation",
-      "pages": [
         {
           "group": "Start Guide",
           "pages": [
@@ -132,9 +129,7 @@
             "documentation/project-settings/managing-projects",
             "documentation/project-settings/captions-cloud"
           ]
-        }
-      ]
-    },
+        },
     {
       "group": "APIs",
       "pages": [
