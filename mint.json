@@ -27,19 +27,9 @@
   },
   "anchors": [
     {
-      "name": "Feature Requests",
-      "icon": "message",
-      "url": "https://captions.canny.io/feature-requests"
-    },
-    {
       "name": "Changelog",
       "icon": "newspaper",
       "url": "changelog"
-    },
-    {
-      "name": "Community",
-      "icon": "people",
-      "url": "http://discord.gg/captions"
     },
     {
       "name": "Contact Support",
@@ -75,18 +65,22 @@
           ]
         },
         {
-          "group": "Captions & Translations",
+          "group": "Captions",
           "pages":[
-            {
-              "group": "Captions",
-              "pages":[
-                "documentation/captions-and-translations/captions/add-captions",
-                "documentation/captions-and-translations/captions/edit-captions",
-                "documentation/captions-and-translations/captions/word-effects",
-                "documentation/captions-and-translations/captions/templates-and-styles",
-                "documentation/captions-and-translations/captions/keyframes"
-              ]
-            },
+            "documentation/captions/add-captions",
+            "documentation/captions/edit-captions",
+            "documentation/captions/hide-and-delete",
+            "documentation/captions/adjust-volume",
+            "documentation/captions/adjust-timing",
+            "documentationcaptions/word-effects",
+            "documentation/captions/templates",
+            "documentation/captions/styles",
+            "documentation/captions/keyframes"
+          ]
+        },
+        {
+          "group": "Translation & Dubbing",
+          "pages":[
             "documentation/captions-and-translations/dubbing",
             "documentation/captions-and-translations/lipdub",
             "documentation/captions-and-translations/speech-correction"
