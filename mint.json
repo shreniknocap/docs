@@ -114,12 +114,14 @@
         {
           "group": "Audio Editing",
           "pages":[
-            "documentation/audio-editing/music-ai",
-            "documentation/audio-editing/sounds",
-            "documentation/audio-editing/denoise-ai",
-            "documentation/audio-editing/cencor-ai",
-            "documentation/audio-editing/voiceover-ai"
-          ]
+            
+                "documentation/audio-editing/music-ai",
+                "documentation/audio-editing/sounds",
+                "documentation/audio-editing/denoise-ai",
+                "documentation/audio-editing/cencor-ai",
+                "documentation/audio-editing/voiceover-ai"
+              ]
+    
         },
         {
           "group": "Project Settings",
@@ -147,9 +149,6 @@
         "youtube": "http://youtube.com/@captionsai",
         "instagram": "http://instagram.com/getcaptionsapp",
         "linkedin": "https://www.linkedin.com/company/captionsapp/"
-    },
-    "integrations": {
-      "intercom": "bzzhyhyn"
     },
     "feedback": {
       "thumbsRating": true
