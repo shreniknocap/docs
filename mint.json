@@ -21,20 +21,20 @@
     "url": "https://www.captions.ai/"
   },
   "topAnchor": {
-    "name": "Home",
+    "name": "Help Center",
     "icon": "house",
     "iconType": "light"
   },
   "anchors": [
     {
-      "name": "Changelog",
+      "name": "New Features",
       "icon": "newspaper",
       "url": "changelog"
     },
     {
       "name": "Contact Support",
       "icon": "comments",
-      "url": "https://captions.canny.io/feature-requests"
+      "url": "http://localhost:3000/documentation/support/support"
     }
   ],
   "navigation": [
@@ -42,25 +42,8 @@
         {
           "group": "Start Guide",
           "pages": [
-            {
-              "group": "Get the app",
-              "pages":[
-                "documentation/start-guide/get-the-app/ios",
-                "documentation/start-guide/get-the-app/desktop",
-                "documentation/start-guide/get-the-app/android"
-              ]
-            },
-            {
-              "group": "Create a project",
-              "pages": [
-                "documentation/start-guide/create-a-project/import",
-                "documentation/start-guide/create-a-project/camera",
-                "documentation/start-guide/create-a-project/script",
-                "documentation/start-guide/create-a-project/teleprompter",
-                "documentation/start-guide/create-a-project/ai-shorts"
-              ]
-    
-            },
+            "documentation/start-guide/create-a-project",
+            "documentation/start-guide/get-the-app",
             "documentation/start-guide/subscriptions"
           ]
         },
@@ -70,9 +53,10 @@
             "documentation/captions/add-captions",
             "documentation/captions/edit-captions",
             "documentation/captions/hide-and-delete",
+            "documentation/captions/move-and-resize",
             "documentation/captions/adjust-volume",
             "documentation/captions/adjust-timing",
-            "documentationcaptions/word-effects",
+            "documentation/captions/word-effects",
             "documentation/captions/templates",
             "documentation/captions/styles",
             "documentation/captions/keyframes"
@@ -81,9 +65,9 @@
         {
           "group": "Translation & Dubbing",
           "pages":[
-            "documentation/captions-and-translations/dubbing",
-            "documentation/captions-and-translations/lipdub",
-            "documentation/captions-and-translations/speech-correction"
+            "documentation/translation-and-dubbing/dubbing",
+            "documentation/translation-and-dubbing/lipdub",
+            "documentation/translation-and-dubbing/speech-correction"
           ]
           
         },
@@ -92,7 +76,8 @@
           "pages":[
             "documentation/timeline-editing/ai-trim",
             "documentation/timeline-editing/manage-clips",
-            "documentation/timeline-editing/transitions"
+            "documentation/timeline-editing/transitions",
+            "documentation/timeline-editing/add-clips"
           ]
         },
         {
@@ -118,12 +103,16 @@
     
         },
         {
-          "group": "Project Settings",
+          "group": "Account & Settings",
           "pages": [
-            "documentation/project-settings/scale-and-format",
-            "documentation/project-settings/export",
-            "documentation/project-settings/managing-projects",
-            "documentation/project-settings/captions-cloud"
+            "documentation/account-and-settings/export",
+            "documentation/account-and-settings/scale-and-format",
+            "documentation/account-and-settings/undo-and-redo",
+            "documentation/account-and-settings/managing-projects",
+            "documentation/account-and-settings/captions-cloud",
+            "documentation/account-and-settings/app-language",
+            "documentation/account-and-settings/log-out",
+            "documentation/account-and-settings/delete-account"
           ]
         },
     {
@@ -139,8 +128,8 @@
   ],
   "footerSocials":
     {
-        "twitter": "https://twitter.com/getcaptionsapp?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
         "youtube": "http://youtube.com/@captionsai",
+        "twitter": "https://twitter.com/getcaptionsapp?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
         "instagram": "http://instagram.com/getcaptionsapp",
         "linkedin": "https://www.linkedin.com/company/captionsapp/"
     },
