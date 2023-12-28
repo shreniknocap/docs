@@ -34,7 +34,7 @@
     {
       "name": "Contact Support",
       "icon": "comments",
-      "url": "http://localhost:3000/documentation/support/support"
+      "url": "support"
     }
   ],
   "navigation": [
