@@ -40,81 +40,98 @@
   "navigation": [
     
         {
-          "group": "Start Guide",
+          "group": "GETTING STARTED",
           "pages": [
+            {
+              "group": "Get the app",
+              "pages":[
+                "documentation/start-guide/get-the-app/ios",
+                "documentation/start-guide/get-the-app/desktop",
+                "documentation/start-guide/get-the-app/android"
+              ]
+            },
             "documentation/start-guide/create-a-project",
-            "documentation/start-guide/get-the-app",
             "documentation/start-guide/subscriptions"
           ]
         },
         {
-          "group": "Captions",
+          "group": "DOCUMENTATION",
           "pages":[
-            "documentation/captions/add-captions",
-            "documentation/captions/edit-captions",
-            "documentation/captions/hide-and-delete",
-            "documentation/captions/move-and-resize",
-            "documentation/captions/adjust-volume",
-            "documentation/captions/adjust-timing",
-            "documentation/captions/word-effects",
-            "documentation/captions/templates",
-            "documentation/captions/styles",
-            "documentation/captions/keyframes"
-          ]
-        },
-        {
-          "group": "Translation & Dubbing",
-          "pages":[
-            "documentation/translation-and-dubbing/dubbing",
-            "documentation/translation-and-dubbing/lipdub",
-            "documentation/translation-and-dubbing/speech-correction"
-          ]
-          
-        },
-        {
-          "group": "Timeline Editing",
-          "pages":[
-            "documentation/timeline-editing/ai-trim",
-            "documentation/timeline-editing/manage-clips",
-            "documentation/timeline-editing/transitions",
-            "documentation/timeline-editing/add-clips"
-          ]
-        },
-        {
-          "group": "Visual Editing",
-          "pages":[
-            "documentation/visual-editing/text",
-            "documentation/visual-editing/zoom-ai",
-            "documentation/visual-editing/title-ai",
-            "documentation/visual-editing/media",
-            "documentation/visual-editing/eye-contact-ai"
-          ]
-        },
-        {
-          "group": "Audio Editing",
-          "pages":[
-            
-                "documentation/audio-editing/music-ai",
-                "documentation/audio-editing/sounds",
-                "documentation/audio-editing/denoise-ai",
-                "documentation/audio-editing/cencor-ai",
-                "documentation/audio-editing/voiceover-ai"
+            {
+              "group": "Captions",
+              "pages":[
+                "documentation/captions/add-captions",
+                "documentation/captions/edit-captions",
+                "documentation/captions/hide-and-delete",
+                "documentation/captions/move-and-resize",
+                "documentation/captions/adjust-volume",
+                "documentation/captions/adjust-timing",
+                "documentation/captions/word-effects",
+                "documentation/captions/templates",
+                "documentation/captions/styles",
+                "documentation/captions/keyframes"
               ]
-    
-        },
-        {
-          "group": "Account & Settings",
-          "pages": [
-            "documentation/account-and-settings/export",
-            "documentation/account-and-settings/scale-and-format",
-            "documentation/account-and-settings/undo-and-redo",
-            "documentation/account-and-settings/managing-projects",
-            "documentation/account-and-settings/captions-cloud",
-            "documentation/account-and-settings/app-language",
-            "documentation/account-and-settings/log-out",
-            "documentation/account-and-settings/delete-account"
+            },
+            {
+              "group": "Translation & Dubbing",
+              "pages":[
+                "documentation/translation-and-dubbing/dubbing",
+                "documentation/translation-and-dubbing/lipdub"
+              ]
+              
+            },
+            {
+              "group": "Timeline Editing",
+              "pages":[
+                "documentation/timeline-editing/ai-trim",
+                "documentation/timeline-editing/manage-clips",
+                "documentation/timeline-editing/transitions",
+                "documentation/timeline-editing/add-clips"
+              ]
+            },
+            {
+              "group": "Visual Editing",
+              "pages":[
+                "documentation/visual-editing/text",
+                "documentation/visual-editing/zoom-ai",
+                "documentation/visual-editing/title-ai",
+                "documentation/visual-editing/media",
+                "documentation/visual-editing/eye-contact-ai"
+              ]
+            },
+            {
+              "group": "Audio Editing",
+              "pages":[
+                
+                    "documentation/audio-editing/music-ai",
+                    "documentation/audio-editing/sounds",
+                    "documentation/audio-editing/enhance",
+                    "documentation/audio-editing/cencor-ai",
+                    "documentation/audio-editing/voiceover-ai"
+                  ]
+        
+            },
+            {
+              "group": "Project Settings",
+              "pages": [
+                "documentation/project-settings/export",
+                "documentation/project-settings/scale-and-format",
+                "documentation/project-settings/undo-and-redo",
+                "documentation/project-settings/managing-projects",
+                "documentation/project-settings/captions-cloud",
+                "documentation/project-settings/app-language"
+              ]
+            },
+            {
+              "group": "Account",
+              "pages":[
+                "documentation/account/log-out",
+                "documentation/account/delete-account"
+              ]
+            }
           ]
         },
+        
     {
       "group": "APIs",
       "pages": [
