@@ -133,9 +133,9 @@
         },
         
     {
-      "group": "APIs",
+      "group": "Get Support",
       "pages": [
-        "documentation/apis/apis"
+        "support/support"
       ]
     },
     {
