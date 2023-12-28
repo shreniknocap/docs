@@ -1,3 +1,8 @@
+div.mt-12.lg\:mt-8:first-of-type {
+    margin-top: 30px;
+}
+
+
 div.mt-12.lg\:mt-8 {
     margin-top: 20px;
 }
