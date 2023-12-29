@@ -54,6 +54,9 @@
             "documentation/start-guide/subscriptions"
           ]
         },
+        {
+          "group": "DOCUMENTATION",
+          "pages":[
             {
               "group": "Captions",
               "pages":[
@@ -125,7 +128,9 @@
                 "documentation/account/log-out",
                 "documentation/account/delete-account"
               ]
-            },
+            }
+          ]
+        },
         
     {
       "group": "Get Support",
