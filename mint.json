@@ -42,6 +42,7 @@
         {
           "group": "GETTING STARTED",
           "pages": [
+            "documentation/start-guide/introduction",
             {
               "group": "Get the app",
               "pages":[
@@ -152,6 +153,7 @@
     },
     "feedback": {
       "thumbsRating": true
-    }
+    },
+    "isWhiteLabeled": true
     
 }
