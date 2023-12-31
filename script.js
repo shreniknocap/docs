@@ -10,14 +10,14 @@ divs.forEach(function(div) {
     }
 });
 
-var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+// Check if the user is on MacOS
+var isMacOS = navigator.platform.toUpperCase().indexOf('MAC') >= 0;
 
 // Print a message to the console based on the device
-if (isIOS) {
-    console.log("On iOS");
+if (isMacOS) {
+    console.log("On MacOS");
 } else {
-    console.log("Not on iOS");
+    console.log("Not on MacOS");
 }
-
 
 console.log("Hello world");
