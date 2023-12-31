@@ -11,11 +11,25 @@ divs.forEach(function(div) {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
+    // Function to find and click an h2 element with specified text
+    function clickTab(title) {
+        var h2s = document.querySelectorAll('h2');
+        for (var i = 0; i < h2s.length; i++) {
+            if (h2s[i].textContent.trim() === title) {
+                h2s[i].click();
+                break;
+            }
+        }
+    }
+
+    // Check if the user is on an iOS device
     var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+
+    // Click the appropriate tab based on the device
     if (isIOS) {
-        document.getElementById('ios-tab').click(); // Open iOS tab
+        clickTab('iOS'); // Click the iOS tab
     } else {
-        document.getElementById('desktop-tab').click(); // Open Desktop tab
+        clickTab('Desktop'); // Click the Desktop tab
     }
 });
 
