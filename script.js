@@ -11,13 +11,17 @@ divs.forEach(function(div) {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-    // Function to find and click an h2 element with specified text
-    function clickTab(title) {
+    // Function to find an h2 with a specific title and click its parent li
+    function clickParentLiOfH2WithTitle(title) {
         var h2s = document.querySelectorAll('h2');
         for (var i = 0; i < h2s.length; i++) {
             if (h2s[i].textContent.trim() === title) {
-                h2s[i].click();
-                break;
+                // Assuming the li is the direct parent of the h2
+                var parentLi = h2s[i].parentElement;
+                if (parentLi && parentLi.classList.contains('cursor-pointer')) {
+                    parentLi.click();
+                    return;
+                }
             }
         }
     }
@@ -25,11 +29,11 @@ document.addEventListener('DOMContentLoaded', function() {
     // Check if the user is on an iOS device
     var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
 
-    // Click the appropriate tab based on the device
+    // Click the appropriate li based on the device
     if (isIOS) {
-        clickTab('iOS'); // Click the iOS tab
+        clickParentLiOfH2WithTitle('iOS'); // Try to click the iOS li
     } else {
-        clickTab('Desktop'); // Click the Desktop tab
+        clickParentLiOfH2WithTitle('Desktop'); // Try to click the Desktop li
     }
 });
 
