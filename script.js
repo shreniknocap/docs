@@ -10,5 +10,13 @@ divs.forEach(function(div) {
     }
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+    var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+    if (isIOS) {
+        document.getElementById('ios-tab').click(); // Open iOS tab
+    } else {
+        document.getElementById('desktop-tab').click(); // Open Desktop tab
+    }
+});
 
 console.log("Hello world");
