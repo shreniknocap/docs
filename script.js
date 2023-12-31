@@ -10,31 +10,14 @@ divs.forEach(function(div) {
     }
 });
 
-document.addEventListener('DOMContentLoaded', function() {
-    // Function to find an h2 with a specific title and click its parent li
-    function clickParentLiOfH2WithTitle(title) {
-        var h2s = document.querySelectorAll('h2');
-        for (var i = 0; i < h2s.length; i++) {
-            if (h2s[i].textContent.trim() === title) {
-                // Assuming the li is the direct parent of the h2
-                var parentLi = h2s[i].parentElement;
-                if (parentLi && parentLi.classList.contains('cursor-pointer')) {
-                    parentLi.click();
-                    return;
-                }
-            }
-        }
-    }
+var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
 
-    // Check if the user is on an iOS device
-    var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+// Print a message to the console based on the device
+if (isIOS) {
+    console.log("On iOS");
+} else {
+    console.log("Not on iOS");
+}
 
-    // Click the appropriate li based on the device
-    if (isIOS) {
-        clickParentLiOfH2WithTitle('iOS'); // Try to click the iOS li
-    } else {
-        clickParentLiOfH2WithTitle('Desktop'); // Try to click the Desktop li
-    }
-});
 
 console.log("Hello world");
