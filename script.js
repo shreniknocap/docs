@@ -12,7 +12,7 @@ if (isMacOS) {
 function displayElement(id, show) {
     var element = document.getElementById(id);
     if (element) {
-        element.style.display = show ? '' : 'none'; // If show is true, display element, otherwise hide it
+        element.style.display = show ? 'block' : 'none'; // 'block' to show, 'none' to hide
     }
 }
 
