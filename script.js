@@ -10,22 +10,12 @@ if (isMacOS) {
 
 
 document.addEventListener('DOMContentLoaded', function() {
-    function toggleDisplay(elementId, shouldDisplay) {
-        var element = document.getElementById(elementId);
-        if (element) {
-            element.style.display = shouldDisplay ? 'block' : 'none';
-        }
-    }
-
-    var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-    if (isIOS) {
-        toggleDisplay('ios-tab', true);      // Show iOS tab
-        toggleDisplay('desktop-tab', false); // Hide Desktop tab
-    } else {
-        toggleDisplay('ios-tab', false);     // Hide iOS tab
-        toggleDisplay('desktop-tab', true);  // Show Desktop tab
+    var testDiv = document.getElementById('test');
+    if (testDiv) {
+        testDiv.textContent = 'No TESTING';
     }
 });
+
 
 
 
