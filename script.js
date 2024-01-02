@@ -10,26 +10,23 @@ if (isMacOS) {
 
 
 document.addEventListener('DOMContentLoaded', function() {
-    // Function to hide or show elements by id
-    function displayElement(id, show) {
-        var element = document.getElementById(id);
+    function toggleDisplay(elementId, shouldDisplay) {
+        var element = document.getElementById(elementId);
         if (element) {
-            element.style.display = show ? 'block' : 'none'; // Use 'block', 'flex', 'grid' or other as per your design
+            element.style.display = shouldDisplay ? 'block' : 'none';
         }
     }
 
-    // Check if the user is on an iOS device
     var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-
-    // Show or hide divs based on the device
     if (isIOS) {
-        displayElement('ios-tab', true);      // Show iOS tab
-        displayElement('desktop-tab', false); // Hide Desktop tab
+        toggleDisplay('ios-tab', true);      // Show iOS tab
+        toggleDisplay('desktop-tab', false); // Hide Desktop tab
     } else {
-        displayElement('ios-tab', false);     // Hide iOS tab
-        displayElement('desktop-tab', true);  // Show Desktop tab
+        toggleDisplay('ios-tab', false);     // Hide iOS tab
+        toggleDisplay('desktop-tab', true);  // Show Desktop tab
     }
 });
+
 
 
 console.log("Hello world");
