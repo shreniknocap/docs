@@ -24,4 +24,20 @@ setInterval(function() {
     } else {
         console.log('One or both tabs not found.');
     }
-}, 5000);
+}, 10000);
+
+
+function adjustTabsForDevice() {
+    var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+    var iosTab = document.getElementById('ios-tab');
+    var desktopTab = document.getElementById('desktop-tab');
+
+    if (iosTab && desktopTab) {
+        iosTab.style.display = isIOS ? 'block' : 'none';
+        desktopTab.style.display = isIOS ? 'none' : 'block';
+    } else {
+        console.log('One or both tabs not found.');
+    }
+}
+
+document.addEventListener('click', adjustTabsForDevice);

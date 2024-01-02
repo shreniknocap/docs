@@ -51,12 +51,21 @@
                 "documentation/start-guide/get-the-app/android"
               ]
             },
-            "documentation/start-guide/create-a-project",
+            {
+              "group": "Create a project",
+              "pages":[
+                "documentation/start-guide/create-a-project/import",
+                "documentation/start-guide/create-a-project/camera",
+                "documentation/start-guide/create-a-project/script",
+                "documentation/start-guide/create-a-project/teleprompter",
+                "documentation/start-guide/create-a-project/ai-shorts" 
+              ]
+            },
             "documentation/start-guide/subscriptions"
           ]
         },
         {
-          "group": "DOCUMENTATION",
+          "group": "CAPTIONS & DUBBING",
           "pages":[
             {
               "group": "Captions",
@@ -74,13 +83,18 @@
               ]
             },
             {
-              "group": "Translation & Dubbing",
+              "group": "Dubbing",
               "pages":[
                 "documentation/translation-and-dubbing/dubbing",
                 "documentation/translation-and-dubbing/lipdub"
               ]
               
-            },
+            }
+          ]
+        },
+        {
+          "group": "VIDEO EDITING",
+          "pages":[
             {
               "group": "Timeline Editing",
               "pages":[
@@ -111,7 +125,12 @@
                     "documentation/audio-editing/voiceover-ai"
                   ]
         
-            },
+            }
+          ]
+        },
+        {
+          "group": "SETTINGS & ACCOUNT",
+          "pages":[
             {
               "group": "Project Settings",
               "pages": [
