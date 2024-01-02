@@ -8,14 +8,24 @@ if (isMacOS) {
     console.log("Not on MacOS");
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-    var testDiv = document.getElementById('test');
-    if (testDiv) {
-        console.log('Content of the div:', testDiv.textContent);
+
+var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+
+var iosTab = document.getElementById('ios-tab');
+var desktopTab = document.getElementById('desktop-tab');
+
+if (iosTab && desktopTab) {
+    if (isIOS) {
+        iosTab.style.display = 'block';      // Show iOS tab
+        desktopTab.style.display = 'none';   // Hide Desktop tab
     } else {
-        console.log('Div with ID "test" not found.');
+        iosTab.style.display = 'none';       // Hide iOS tab
+        desktopTab.style.display = 'block';  // Show Desktop tab
     }
-});
+} else {
+    console.log('One or both tabs not found');
+}
+
 
 
 console.log("Hello world");
