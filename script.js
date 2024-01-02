@@ -9,7 +9,7 @@ if (isMacOS) {
 }
 
 
-var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+/* var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
 
 var iosTab = document.getElementById('ios-tab');
 var desktopTab = document.getElementById('desktop-tab');
@@ -24,7 +24,26 @@ if (iosTab && desktopTab) {
     }
 } else {
     console.log('One or both tabs not found');
-}
+} */
+
+setInterval(function() {
+    var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+    var iosTab = document.getElementById('ios-tab');
+    var desktopTab = document.getElementById('desktop-tab');
+
+    if (iosTab && desktopTab) {
+        if (isIOS) {
+            iosTab.style.display = 'block';      // Show iOS tab
+            desktopTab.style.display = 'none';   // Hide Desktop tab
+        } else {
+            iosTab.style.display = 'none';       // Hide iOS tab
+            desktopTab.style.display = 'block';  // Show Desktop tab
+        }
+    } else {
+        console.log('One or both tabs not found.');
+    }
+}, 5000); // 5000 milliseconds equals 5 seconds
+
 
 
 
