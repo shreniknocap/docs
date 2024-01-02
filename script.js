@@ -27,6 +27,7 @@ setInterval(function() {
 }, 10000);
 
 
+
 function adjustTabsForDevice() {
     var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
     var iosTab = document.getElementById('ios-tab');
@@ -40,4 +41,8 @@ function adjustTabsForDevice() {
     }
 }
 
-document.addEventListener('click', adjustTabsForDevice);
+// Add click event listener to the document
+document.addEventListener('click', function() {
+    // Use setTimeout to delay the execution by 1 second
+    setTimeout(adjustTabsForDevice, 1000);
+});
