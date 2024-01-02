@@ -8,15 +8,14 @@ if (isMacOS) {
     console.log("Not on MacOS");
 }
 
-
 document.addEventListener('DOMContentLoaded', function() {
     var testDiv = document.getElementById('test');
     if (testDiv) {
-        testDiv.textContent = 'No TESTING';
+        console.log('Content of the div:', testDiv.textContent);
+    } else {
+        console.log('Div with ID "test" not found.');
     }
 });
-
-
 
 
 console.log("Hello world");
