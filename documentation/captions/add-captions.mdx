@@ -79,3 +79,34 @@ Adding captions makes your video more engaging and easier to watch. Within the a
         </Tab>
     </Tabs>
 </div>
+
+
+<script>
+  // Function to hide or show elements by id
+  function displayElement(id, show) {
+      var element = document.getElementById(id);
+      if (element) {
+          element.style.display = show ? 'block' : 'none'; // Use 'block' for div elements
+      }
+  }
+
+  // This will run immediately when the script is parsed, which might be before the DOM is fully ready.
+  // Check if the user is on an iOS device
+  var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+
+  // Show or hide divs based on the device
+  if (isIOS) {
+      // Use a timeout to give the browser a moment to ensure the DOM is fully loaded
+      setTimeout(function() {
+          displayElement('ios-tab', true);      // Show iOS tab
+          displayElement('desktop-tab', false); // Hide Desktop tab
+      }, 0);
+  } else {
+      // Use a timeout to give the browser a moment to ensure the DOM is fully loaded
+      setTimeout(function() {
+          displayElement('ios-tab', false);     // Hide iOS tab
+          displayElement('desktop-tab', true);  // Show Desktop tab
+      }, 0);
+  }
+</script>
+
