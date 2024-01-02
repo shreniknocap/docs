@@ -8,23 +8,21 @@ if (isMacOS) {
 }
 
 
-setInterval(function() {
-    var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-    var iosTab = document.getElementById('ios-tab');
-    var desktopTab = document.getElementById('desktop-tab');
+var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+var iosTab = document.getElementById('ios-tab');
+var desktopTab = document.getElementById('desktop-tab');
 
-    if (iosTab && desktopTab) {
-        if (isIOS) {
-            iosTab.style.display = 'block';      
-            desktopTab.style.display = 'none';   
-        } else {
-            iosTab.style.display = 'none';       
-            desktopTab.style.display = 'block'; 
-        }
+if (iosTab && desktopTab) {
+    if (isIOS) {
+        iosTab.style.display = 'block';      
+        desktopTab.style.display = 'none';   
     } else {
-        console.log('One or both tabs not found.');
+        iosTab.style.display = 'none';       
+        desktopTab.style.display = 'block'; 
     }
-}, 10000);
+} else {
+    console.log('One or both tabs not found.');
+}
 
 
 
@@ -41,8 +39,7 @@ function adjustTabsForDevice() {
     }
 }
 
-// Add click event listener to the document
+
 document.addEventListener('click', function() {
-    // Use setTimeout to delay the execution by 1 second
-    setTimeout(adjustTabsForDevice, 1000);
+    setTimeout(adjustTabsForDevice, 500);
 });
