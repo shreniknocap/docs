@@ -40,33 +40,6 @@ function adjustTabsForDevice() {
 }
 
 
-function clickTab(title) {
-    var h2s = document.querySelectorAll('h2');
-    for (var i = 0; i < h2s.length; i++) {
-        if (h2s[i].textContent.trim() === title) {
-            h2s[i].click();
-            break;
-        }
-    }
-}
-
-function changeTab(){
-
-    var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-    
-    if (isIOS) {
-        clickTab('iOS'); 
-    } else {
-        clickTab('Desktop'); 
-    }
-}
-
-
-
-
 document.addEventListener('click', function() {
     setTimeout(adjustTabsForDevice, 500);
-});
-document.addEventListener('click', function() {
-    setTimeout(changeTab, 500);
 });
