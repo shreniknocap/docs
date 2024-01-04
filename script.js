@@ -41,5 +41,5 @@ function adjustTabsForDevice() {
 
 
 document.addEventListener('click', function() {
-    setTimeout(adjustTabsForDevice, 500);
+    setTimeout(adjustTabsForDevice, 200);
 });

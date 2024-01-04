@@ -71,7 +71,7 @@
               "group": "Captions",
               "pages":[
                 "documentation/captions/add-captions",
-                "documentation/captions/edit-captions",
+                "documentation/captions/edit-spelling",
                 "documentation/captions/hide-and-delete",
                 "documentation/captions/move-and-resize",
                 "documentation/captions/adjust-volume",
@@ -98,7 +98,7 @@
             {
               "group": "Timeline Editing",
               "pages":[
-                "documentation/timeline-editing/ai-trim",
+                "documentation/timeline-editing/trim",
                 "documentation/timeline-editing/manage-clips",
                 "documentation/timeline-editing/transitions",
                 "documentation/timeline-editing/add-clips"
@@ -108,21 +108,21 @@
               "group": "Visual Editing",
               "pages":[
                 "documentation/visual-editing/text",
-                "documentation/visual-editing/zoom-ai",
-                "documentation/visual-editing/title-ai",
+                "documentation/visual-editing/zoom",
+                "documentation/visual-editing/title",
                 "documentation/visual-editing/media",
-                "documentation/visual-editing/eye-contact-ai"
+                "documentation/visual-editing/eye-contact"
               ]
             },
             {
               "group": "Audio Editing",
               "pages":[
                 
-                    "documentation/audio-editing/music-ai",
+                    "documentation/audio-editing/music",
                     "documentation/audio-editing/sounds",
                     "documentation/audio-editing/enhance",
-                    "documentation/audio-editing/cencor-ai",
-                    "documentation/audio-editing/voiceover-ai"
+                    "documentation/audio-editing/cencor",
+                    "documentation/audio-editing/voiceover"
                   ]
         
             }
