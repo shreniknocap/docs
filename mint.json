@@ -160,7 +160,7 @@
     },
     {
       "group": "Updates by platform",
-      "pages": ["changelog/ios", "changelog/desktop", "changelog/android"]
+      "pages": ["new-features/ios", "new-features/desktop", "new-features/android"]
     }
   ],
   "footerSocials":
