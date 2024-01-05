@@ -29,7 +29,7 @@
     {
       "name": "New Features",
       "icon": "newspaper",
-      "url": "new-features"
+      "url": "/new-features"
     },
     {
       "name": "Contact Support",
@@ -121,7 +121,7 @@
                     "documentation/audio-editing/music",
                     "documentation/audio-editing/sounds",
                     "documentation/audio-editing/enhance",
-                    "documentation/audio-editing/cencor",
+                    "documentation/audio-editing/censor",
                     "documentation/audio-editing/voiceover"
                   ]
         
