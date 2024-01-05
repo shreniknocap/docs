@@ -98,10 +98,10 @@
             {
               "group": "Timeline Editing",
               "pages":[
+                "documentation/timeline-editing/add-clips",
+                "documentation/timeline-editing/split-delete",
                 "documentation/timeline-editing/trim",
-                "documentation/timeline-editing/manage-clips",
-                "documentation/timeline-editing/transitions",
-                "documentation/timeline-editing/add-clips"
+                "documentation/timeline-editing/transitions"
               ]
             },
             {
