@@ -71,15 +71,15 @@
               "group": "Captions",
               "pages":[
                 "documentation/captions/add-captions",
-                "documentation/captions/edit-spelling",
                 "documentation/captions/hide-and-delete",
                 "documentation/captions/move-and-resize",
-                "documentation/captions/adjust-volume",
+                "documentation/captions/keyframes",
+                "documentation/captions/edit-spelling",
                 "documentation/captions/adjust-timing",
+                "documentation/captions/adjust-volume",
                 "documentation/captions/word-effects",
                 "documentation/captions/templates",
-                "documentation/captions/styles",
-                "documentation/captions/keyframes"
+                "documentation/captions/styles"
               ]
             },
             {
