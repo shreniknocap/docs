@@ -42,26 +42,26 @@
         {
           "group": "GETTING STARTED",
           "pages": [
-            "documentation/start-guide/introduction",
+            "docs/start-guide/introduction",
             {
               "group": "Get the app",
               "pages":[
-                "documentation/start-guide/get-the-app/ios",
-                "documentation/start-guide/get-the-app/desktop",
-                "documentation/start-guide/get-the-app/android"
+                "docs/start-guide/get-the-app/ios",
+                "docs/start-guide/get-the-app/desktop",
+                "docs/start-guide/get-the-app/android"
               ]
             },
             {
               "group": "Create a project",
               "pages":[
-                "documentation/start-guide/create-a-project/import",
-                "documentation/start-guide/create-a-project/camera",
-                "documentation/start-guide/create-a-project/script",
-                "documentation/start-guide/create-a-project/teleprompter",
-                "documentation/start-guide/create-a-project/ai-shorts" 
+                "docs/start-guide/create-a-project/import",
+                "docs/start-guide/create-a-project/camera",
+                "docs/start-guide/create-a-project/script",
+                "docs/start-guide/create-a-project/teleprompter",
+                "docs/start-guide/create-a-project/ai-shorts" 
               ]
             },
-            "documentation/start-guide/subscriptions"
+            "docs/start-guide/subscriptions"
           ]
         },
         {
@@ -70,23 +70,23 @@
             {
               "group": "Captions",
               "pages":[
-                "documentation/captions/add-captions",
-                "documentation/captions/hide-and-delete",
-                "documentation/captions/move-and-resize",
-                "documentation/captions/keyframes",
-                "documentation/captions/edit-spelling",
-                "documentation/captions/adjust-timing",
-                "documentation/captions/adjust-volume",
-                "documentation/captions/word-effects",
-                "documentation/captions/templates",
-                "documentation/captions/styles"
+                "docs/captions/add-captions",
+                "docs/captions/hide-and-delete",
+                "docs/captions/move-and-resize",
+                "docs/captions/keyframes",
+                "docs/captions/edit-spelling",
+                "docs/captions/adjust-timing",
+                "docs/captions/adjust-volume",
+                "docs/captions/word-effects",
+                "docs/captions/templates",
+                "docs/captions/styles"
               ]
             },
             {
               "group": "Dubbing",
               "pages":[
-                "documentation/translation-and-dubbing/dubbing",
-                "documentation/translation-and-dubbing/lipdub"
+                "docs/translation-and-dubbing/dubbing",
+                "docs/translation-and-dubbing/lipdub"
               ]
               
             }
@@ -98,31 +98,31 @@
             {
               "group": "Timeline Editing",
               "pages":[
-                "documentation/timeline-editing/add-clips",
-                "documentation/timeline-editing/split-delete",
-                "documentation/timeline-editing/trim",
-                "documentation/timeline-editing/transitions"
+                "docs/timeline-editing/add-clips",
+                "docs/timeline-editing/split-delete",
+                "docs/timeline-editing/trim",
+                "docs/timeline-editing/transitions"
               ]
             },
             {
               "group": "Visual Editing",
               "pages":[
-                "documentation/visual-editing/text",
-                "documentation/visual-editing/zoom",
-                "documentation/visual-editing/title",
-                "documentation/visual-editing/media",
-                "documentation/visual-editing/eye-contact"
+                "docs/visual-editing/text",
+                "docs/visual-editing/zoom",
+                "docs/visual-editing/title",
+                "docs/visual-editing/media",
+                "docs/visual-editing/eye-contact"
               ]
             },
             {
               "group": "Audio Editing",
               "pages":[
                 
-                    "documentation/audio-editing/music",
-                    "documentation/audio-editing/sounds",
-                    "documentation/audio-editing/enhance",
-                    "documentation/audio-editing/censor",
-                    "documentation/audio-editing/voiceover"
+                    "docs/audio-editing/music",
+                    "docs/audio-editing/sounds",
+                    "docs/audio-editing/enhance",
+                    "docs/audio-editing/censor",
+                    "docs/audio-editing/voiceover"
                   ]
         
             }
@@ -134,19 +134,19 @@
             {
               "group": "Project Settings",
               "pages": [
-                "documentation/project-settings/export",
-                "documentation/project-settings/scale-and-format",
-                "documentation/project-settings/undo-and-redo",
-                "documentation/project-settings/managing-projects",
-                "documentation/project-settings/captions-cloud",
-                "documentation/project-settings/app-language"
+                "docs/project-settings/export",
+                "docs/project-settings/scale-and-format",
+                "docs/project-settings/undo-and-redo",
+                "docs/project-settings/managing-projects",
+                "docs/project-settings/captions-cloud",
+                "docs/project-settings/app-language"
               ]
             },
             {
               "group": "Account",
               "pages":[
-                "documentation/account/log-out",
-                "documentation/account/delete-account"
+                "docs/account/log-out",
+                "docs/account/delete-account"
               ]
             }
           ]
