@@ -46,13 +46,18 @@ document.addEventListener('click', function() {
 
 
 
+function openLinksInNew(){
+    var footerDiv = document.querySelector('footer > div');
 
-var footerDiv = document.querySelector('footer > div');
-
-if (footerDiv) {
-       
-    var links = footerDiv.querySelectorAll('a');
-    links.forEach(function(link) {
-        link.setAttribute('target', '_blank');
-    });
+    if (footerDiv) {
+        
+        var links = footerDiv.querySelectorAll('a');
+        links.forEach(function(link) {
+            link.setAttribute('target', '_blank');
+        });
+    }
 }
+
+document.addEventListener('click', function() {
+    setTimeout(openLinksInNew, 200);
+});
