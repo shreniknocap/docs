@@ -43,3 +43,17 @@ function adjustTabsForDevice() {
 document.addEventListener('click', function() {
     setTimeout(adjustTabsForDevice, 200);
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    var footerDiv = document.querySelector('footer > div');
+
+    if (footerDiv) {
+       
+        var links = footerDiv.querySelectorAll('a');
+        links.forEach(function(link) {
+            link.setAttribute('target', '_blank');
+        });
+    }
+});
