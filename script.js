@@ -1,4 +1,5 @@
 
+// Adjust the content based on the user's device
 var isMacOS = navigator.platform.toUpperCase().indexOf('MAC') >= 0;
 
 if (isMacOS) {
@@ -45,7 +46,7 @@ document.addEventListener('click', function() {
 });
 
 
-
+// Open social media links in new tabs
 function openLinksInNew(){
     var footerDiv = document.querySelector('footer > div');
 
@@ -57,7 +58,7 @@ function openLinksInNew(){
         });
     }
 }
-
+openLinksInNew();
 document.addEventListener('click', function() {
     setTimeout(openLinksInNew, 200);
 });
