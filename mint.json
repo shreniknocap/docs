@@ -42,26 +42,26 @@
         {
           "group": "GETTING STARTED",
           "pages": [
-            "docs/start-guide/introduction",
+            "docs/start/introduction",
             {
               "group": "Get the app",
               "pages":[
-                "docs/start-guide/get-the-app/ios",
-                "docs/start-guide/get-the-app/desktop",
-                "docs/start-guide/get-the-app/android"
+                "docs/start/get-the-app/ios",
+                "docs/start/get-the-app/desktop",
+                "docs/start/get-the-app/android"
               ]
             },
             {
               "group": "Create a project",
               "pages":[
-                "docs/start-guide/create-a-project/import",
-                "docs/start-guide/create-a-project/camera",
-                "docs/start-guide/create-a-project/script",
-                "docs/start-guide/create-a-project/teleprompter",
-                "docs/start-guide/create-a-project/ai-shorts" 
+                "docs/start/create-a-project/import",
+                "docs/start/create-a-project/camera",
+                "docs/start/create-a-project/script",
+                "docs/start/create-a-project/teleprompter",
+                "docs/start/create-a-project/ai-shorts" 
               ]
             },
-            "docs/start-guide/subscriptions"
+            "docs/start/subscriptions"
           ]
         },
         {
