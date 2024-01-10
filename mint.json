@@ -42,26 +42,26 @@
         {
           "group": "GETTING STARTED",
           "pages": [
-            "docs/start/introduction",
+            "docs/introduction",
             {
               "group": "Get the app",
               "pages":[
-                "docs/start/get-the-app/ios",
-                "docs/start/get-the-app/desktop",
-                "docs/start/get-the-app/android"
+                "docs/app/ios",
+                "docs/app/desktop",
+                "docs/app/android"
               ]
             },
             {
               "group": "Create a project",
               "pages":[
-                "docs/start/create-a-project/import",
-                "docs/start/create-a-project/camera",
-                "docs/start/create-a-project/script",
-                "docs/start/create-a-project/teleprompter",
-                "docs/start/create-a-project/ai-shorts" 
+                "docs/project/import",
+                "docs/project/camera",
+                "docs/project/script",
+                "docs/project/teleprompter",
+                "docs/project/ai-shorts" 
               ]
             },
-            "docs/start/subscriptions"
+            "docs/subscriptions"
           ]
         },
         {
@@ -85,7 +85,7 @@
             {
               "group": "Dubbing",
               "pages":[
-                "docs/translation-and-dubbing/dubbing"
+                "docs/translation/dubbing"
               ]
               
             }
@@ -97,31 +97,31 @@
             {
               "group": "Timeline Editing",
               "pages":[
-                "docs/timeline-editing/add-clips",
-                "docs/timeline-editing/split-delete",
-                "docs/timeline-editing/trim",
-                "docs/timeline-editing/transitions"
+                "docs/timeline/add-clips",
+                "docs/timeline/split-delete",
+                "docs/timeline/trim",
+                "docs/timeline/transitions"
               ]
             },
             {
               "group": "Visual Editing",
               "pages":[
-                "docs/visual-editing/text",
-                "docs/visual-editing/zoom",
-                "docs/visual-editing/title",
-                "docs/visual-editing/media",
-                "docs/visual-editing/eye-contact"
+                "docs/visual/text",
+                "docs/visual/zoom",
+                "docs/visual/title",
+                "docs/visual/media",
+                "docs/visual/eye-contact"
               ]
             },
             {
               "group": "Audio Editing",
               "pages":[
                 
-                    "docs/audio-editing/music",
-                    "docs/audio-editing/sounds",
-                    "docs/audio-editing/denoise",
-                    "docs/audio-editing/censor",
-                    "docs/audio-editing/voiceover"
+                    "docs/audio/music",
+                    "docs/audio/sounds",
+                    "docs/audio/denoise",
+                    "docs/audio/censor",
+                    "docs/audio/voiceover"
                   ]
         
             }
@@ -133,12 +133,12 @@
             {
               "group": "Project Settings",
               "pages": [
-                "docs/project-settings/export",
-                "docs/project-settings/scale-and-format",
-                "docs/project-settings/undo-and-redo",
-                "docs/project-settings/managing-projects",
-                "docs/project-settings/captions-cloud",
-                "docs/project-settings/app-language"
+                "docs/settings/export",
+                "docs/settings/scale-and-format",
+                "docs/settings/undo-and-redo",
+                "docs/settings/managing-projects",
+                "docs/settings/captions-cloud",
+                "docs/settings/app-language"
               ]
             },
             {
