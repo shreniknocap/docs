@@ -144,9 +144,9 @@
             {
               "group": "Account",
               "pages":[
+                "docs/account/api",
                 "docs/account/log-out",
-                "docs/account/delete-account",
-                "docs/account/api"
+                "docs/account/delete-account"
               ]
             }
           ]
