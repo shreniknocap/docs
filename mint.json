@@ -119,7 +119,7 @@
                 
                     "docs/audio-editing/music",
                     "docs/audio-editing/sounds",
-                    "docs/audio-editing/enhance",
+                    "docs/audio-editing/denoise",
                     "docs/audio-editing/censor",
                     "docs/audio-editing/voiceover"
                   ]
