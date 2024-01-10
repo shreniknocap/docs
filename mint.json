@@ -173,6 +173,14 @@
     "feedback": {
       "thumbsRating": true
     },
-    "isWhiteLabeled": true
-    
+    "isWhiteLabeled": true,
+
+  "redirects": [
+  {
+    "source": "/updates",
+    "destination": "/new-features/"
+  }
+]
+
+  
 }
