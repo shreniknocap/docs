@@ -65,7 +65,7 @@
           ]
         },
         {
-          "group": "CAPTIONS & DUBBING",
+          "group": "CAPTIONS & TRANSLATION",
           "pages":[
             {
               "group": "Captions",
@@ -76,14 +76,13 @@
                 "docs/captions/keyframes",
                 "docs/captions/edit-spelling",
                 "docs/captions/adjust-timing",
-                "docs/captions/adjust-volume",
                 "docs/captions/word-effects",
                 "docs/captions/templates",
                 "docs/captions/styles"
               ]
             },
             {
-              "group": "Dubbing",
+              "group": "Translation",
               "pages":[
                 "docs/translation/dubbing"
               ]
